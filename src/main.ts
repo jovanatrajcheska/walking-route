@@ -31,8 +31,8 @@ function readInputFromConsole(): Promise<string> {
 
     try {
         pathFinder.findPath();
-        console.log("Path:", pathFinder.getPath());
-        console.log("Letters:", pathFinder.getLetters());
+        console.log("Path ", pathFinder.getPath());
+        console.log("Letters ", pathFinder.getLetters());
     } catch (error) {
         console.error(error);
     }
